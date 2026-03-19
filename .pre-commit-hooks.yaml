@@ -3,3 +3,8 @@
   language: deno
   entry: deno eval 'console.log("This is a remote deno hook")'
   pass_filenames: false
+- id: deno-script
+  name: deno-script
+  language: deno
+  entry: deno run --allow-run ./hook.ts
+  pass_filenames: false
