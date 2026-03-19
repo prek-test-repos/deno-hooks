@@ -2,6 +2,5 @@
 
 Remote Deno hooks for prek integration tests.
 
-This repo exposes a repo-level CLI entrypoint at `cli.ts`. prek installs that
-entrypoint as an executable, and individual hooks call it with different
-subcommands.
+This repo uses local-file `additional_dependencies` in the manifest to install
+repo-provided executables such as `./cli.ts:deno-hooks`.
