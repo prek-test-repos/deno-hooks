@@ -1,0 +1,5 @@
+- id: deno-eval
+  name: deno-eval
+  language: deno
+  entry: deno eval 'console.log("This is a remote deno hook")'
+  pass_filenames: false
