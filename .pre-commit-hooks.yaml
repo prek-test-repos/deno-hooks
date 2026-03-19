@@ -1,10 +1,10 @@
 - id: deno-eval
   name: deno-eval
   language: deno
-  entry: deno eval 'console.log("This is a remote deno hook")'
+  entry: deno-hooks eval
   pass_filenames: false
-- id: deno-script
-  name: deno-script
+- id: deno-semver
+  name: deno-semver
   language: deno
-  entry: deno run --allow-run ./hook.ts
+  entry: deno-hooks semver
   pass_filenames: false
