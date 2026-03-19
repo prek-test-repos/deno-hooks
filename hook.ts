@@ -1,4 +1,4 @@
-const cmd = new Deno.Command("prettier", {
+const cmd = new Deno.Command("fmt-tool", {
   args: ["--version"],
   stdout: "piped",
 });
