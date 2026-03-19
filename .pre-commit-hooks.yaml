@@ -8,3 +8,10 @@
   language: deno
   entry: deno-hooks semver
   pass_filenames: false
+- id: deno-local-dep
+  name: deno-local-dep
+  language: deno
+  entry: echo-tool
+  additional_dependencies:
+    - ./local-tool.ts:echo-tool
+  pass_filenames: false
