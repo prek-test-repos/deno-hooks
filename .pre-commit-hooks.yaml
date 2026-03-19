@@ -8,9 +8,7 @@
 - id: deno-semver
   name: deno-semver
   language: deno
-  entry: deno-hooks semver
-  additional_dependencies:
-    - ./cli.ts:deno-hooks
+  entry: semver-tool 1.2.3
   pass_filenames: false
 - id: deno-local-dep
   name: deno-local-dep
